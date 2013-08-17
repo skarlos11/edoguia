@@ -2,11 +2,11 @@
 
 <?php putRevSlider("homepage"); ?>
 
-<div id="content" class="position">
+<div id="content">
 	
 	<div class="row">
-		
-		<div class="span6 ">
+			
+		<div class="span6">
 
 			<h1>hola</h1>
 			
@@ -23,10 +23,10 @@
 
 		</div>
 
-		<div class="span6">
+		<div class="span5">
 
 			<h2>Hola Dos</h2>
-			
+				
 			<p>
 				soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat 
 				facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis 
@@ -41,9 +41,16 @@
 		</div>
 
 	</div>
+	
+
+	
+		
+
+	
+
 
 </div>
-
+<div class="clear"></div>
 
 
 <?php get_footer() ?>
