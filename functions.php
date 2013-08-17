@@ -6,8 +6,8 @@ function add_scripts(){
 	wp_register_script('bootstrap-min-js',get_template_directory_uri() . '/js/bootstrap.min.js');
 	wp_register_script('bootstrap-js',get_template_directory_uri() . '/js/bootstrap.js');
 	wp_register_style( 'style', get_template_directory_uri() . '/style.css');
-	wp_register_style( 'bootstrap', get_template_directory_uri() . 'css/bootstrap.min.css');
-	wp_register_style( 'bootstrap-responsive', get_template_directory_uri() . 'css/bootstrap-responsive.min.css');
+	wp_register_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
+	wp_register_style( 'bootstrap-responsive', get_template_directory_uri() . '/css/bootstrap-responsive.min.css');
     
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('bootstrap-min-js');
