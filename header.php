@@ -11,16 +11,8 @@
 
 		</div>
 
-		<div >
-
-			<ul id="menu">
-				<li>Historia</li>
-				<li>Sociedad</li>
-				<li>Sitios de Interes</li>
-				<li>Directorio</li>
-				<li>Contacto</li>
-			</ul>
-
+		<div  class="nav-collapse collapse">
+			<?php wp_nav_menu() ?>
 		</div>
 
 	</div>

@@ -10,28 +10,33 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	height: 104px;
 }
 
-#menu {
-	position: relative;
-	left: 300px;
-	top: -83px;
-}
-
-#menu li{
-	display: inline;
-	background-color: #3e3e3e;
-	padding: 15px 25px 15px 25px;
-	color: #fff;
-	margin-left: -4px;
-	font-family: helvetica;
-}
-
 #logo {
 	background-image:url('img/logo.png');
 	width: 300px;
 	height: 104px;
 }
-#menu li:hover{
+
+.menu {
+	position: relative;
+	left: 300px;
+	top: -83px;
+}
+
+.menu li{
+	display: inline;
+	background-color: #3e3e3e;
+	padding: 15px 25px 15px 25px;
+	margin-left: -4px;
+}
+
+.menu li:hover{
 	background-color: #36b8ea;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: helvetica;
 }
 
 #footer {
@@ -46,5 +51,5 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	width: 960px;
 	margin: 0 auto;
 	color: #fff;
-	padding-top: 2px;
+	padding-top: 15px;
 }
