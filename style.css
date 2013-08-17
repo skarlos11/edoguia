@@ -1,0 +1,50 @@
+/*
+Theme Name: EdoGuia
+Author: Artemio & Carlos Rodriguez
+Description: Edo Guia Enfocado a la publicidad web de negocios
+*/
+
+#header{
+	width: 960px;
+	margin: 0 auto;
+	height: 104px;
+}
+
+#menu {
+	position: relative;
+	left: 300px;
+	top: -100px;
+}
+
+#menu li{
+	display: inline;
+	background-color: #3e3e3e;
+	padding: 15px 25px 15px 25px;
+	color: #fff;
+	margin-left: -4px;
+	font-family: helvetica;
+}
+
+#logo {
+	background-image:url('images/logo.png');
+	width: 300px;
+	height: 104px;
+}
+#menu li:hover{
+	background-color: #36b8ea;
+}
+
+#footer {
+	height: 85px;
+	background-color: #36B8EA;
+	margin: 0px -8px 0px -8px;
+}
+
+.textof {
+	font-family: helvetica;
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 2px;
+}
