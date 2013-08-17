@@ -5,20 +5,20 @@
 
 	</head>
 
-	<div id="header">
+	<div id="header" class="row">
 		
-		<div id="logo">
+		<div id="logo" class="span6">
 
 		</div>
 
-		<div >
+		<div  class="span6">
 
 			<ul id="menu">
-				<li>Historia</li>
-				<li>Sociedad</li>
-				<li>Sitios de Interes</li>
-				<li>Directorio</li>
-				<li>Contacto</li>
+				<li >Historia</li>
+				<li >Sociedad</li>
+				<li >Sitios de Interes</li>
+				<li >Directorio</li>
+				<li >Contacto</li>
 			</ul>
 
 		</div>
