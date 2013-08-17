@@ -1,24 +1,24 @@
 <html>
 	<head>
 
-		<?php wp_head(); ?>
+			<?php wp_head(); ?>
 
 	</head>
 
-	<div id="header" class="row">
+	<div id="header">
 		
-		<div id="logo" class="span6">
+		<div id="logo">
 
 		</div>
 
-		<div  class="span6">
+		<div >
 
 			<ul id="menu">
-				<li >Historia</li>
-				<li >Sociedad</li>
-				<li >Sitios de Interes</li>
-				<li >Directorio</li>
-				<li >Contacto</li>
+				<li>Historia</li>
+				<li>Sociedad</li>
+				<li>Sitios de Interes</li>
+				<li>Directorio</li>
+				<li>Contacto</li>
 			</ul>
 
 		</div>
