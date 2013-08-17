@@ -48,8 +48,8 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 .textof {
 	font-family: helvetica;
 	text-align: center;
-	width: 960px;
-	margin: 0 auto;
 	color: #fff;
 	padding-top: 15px;
+	float: left; 
+	margin: 0 28% !important;
 }
