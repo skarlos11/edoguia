@@ -8,7 +8,7 @@
 	<div id="header">
 		
 		<div id="logo">
-			
+			Prueba
 		</div>
 
 		<div >
