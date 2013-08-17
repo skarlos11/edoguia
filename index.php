@@ -2,9 +2,9 @@
 
 <?php putRevSlider("homepage"); ?>
 
-<div id="content">
+<div id="content" class="position">
 	
-	<div class="row position">
+	<div class="row">
 		
 		<div class="span6 ">
 
