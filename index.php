@@ -41,16 +41,15 @@
 		</div>
 
 	</div>
-	
-
-	
-		
-
-	
-
 
 </div>
 <div class="clear"></div>
+
+<div id="cat-content">
+	<ul id="cat-muestra" class="row">
+		<?php cat_muestra() ?>
+	</ul>
+</div>
 
 
 <?php get_footer() ?>

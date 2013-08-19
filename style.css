@@ -48,8 +48,40 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	margin: 0 auto;
 }
 
+#cat-content{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
 .position{
 	margin: 0 auto!important;
+}
+
+#cat-muestra li{
+	height: 120px;
+}
+
+#cat-muestra li a{
+	color: #fff;
+	font-size: 1.5em;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+#cat-muestra li:nth-child(1){
+	background: #36b8ea;
+}
+
+#cat-muestra li:nth-child(2){
+	background: #e30613;
+}
+
+#cat-muestra li:nth-child(3){
+	background: #e6007e;
+}
+
+#cat-muestra li:nth-child(4){
+	background: #3aaa35;
 }
 
 #footer {
