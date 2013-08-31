@@ -30,7 +30,7 @@ function cat_muestra(){
 	$args = array(
 		
 		'orderby'                  => 'id',
-		'order'                    => 'DESC',
+		'order'                    => 'ASC',
 		
 	);
 	
