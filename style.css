@@ -4,8 +4,21 @@ Author: Artemio & Carlos Rodriguez
 Description: Edo Guia Enfocado a la publicidad web de negocios
 */
 
+
+/*--------------Generic Css----------------*/
+
+.clear{
+	clear: both;
+}
+
+.position{
+	margin: 0 auto!important;
+}
+
+/*----------------Header-------------------*/
+
 #header{
-	width: 960px;
+	max-width: 1170px;
 	margin: 0 auto;
 	height: 104px;
 }
@@ -14,10 +27,6 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	background-image:url('img/logo.png');
 	width: 300px;
 	height: 104px;
-}
-
-.clear{
-	clear: both;
 }
 
 .menu {
@@ -43,29 +52,48 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	font-family: helvetica;
 }
 
+/*----------------Content-------------------*/
+
 #content{
 	max-width: 1170px;
 	margin: 0 auto;
 }
+
+
+/*-----------Categories Index---------------*/
 
 #cat-content{
 	max-width: 1170px;
 	margin: 0 auto;
 }
 
-.position{
-	margin: 0 auto!important;
+#cat-muestra div{
+	text-align: center;
+	margin-top: 15px;
+	cursor: pointer;
 }
+
 
 #cat-muestra li{
-	height: 120px;
+	height: 270px;
 }
 
-#cat-muestra li a{
+#cat-muestra li img{
+	padding-bottom: 15px;
+}
+
+#cat-muestra li span{
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	font-family: Helvetica;
 	font-weight: bold;
+	line-height: 0.8;
+}
+
+#cat-muestra li p{
+	color: #fff;
+	font-size: 1.8em;
+	padding-top: 10px;
 }
 
 #cat-muestra li:nth-child(1){
@@ -83,6 +111,9 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 #cat-muestra li:nth-child(4){
 	background: #3aaa35;
 }
+
+/*----------------Footer-------------------*/
+
 
 #footer {
 	min-height: 85px;

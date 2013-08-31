@@ -1,5 +1,7 @@
 jQuery(function($) {
  
-	$('#cat-muestra').find('li').addClass('span3');
+	$('#cat-muestra').find('div').click(function(){
+		window.location = $(this).attr('url');
+	});
 
 });
