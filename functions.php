@@ -30,7 +30,7 @@ function cat_muestra(){
 	$args = array(
 		
 		'orderby'                  => 'id',
-		'order'                    => 'ASC',
+		'order'                    => 'DESC',
 		
 	);
 	
@@ -42,7 +42,7 @@ function cat_muestra(){
 	foreach ($categories as $cat) {
 
 		$output	.=	'<li class="span3">
-						<div url="'.get_permalink( $cat->cat_ID ).'">
+						<div url="'.get_category_link( $cat->cat_ID ).'">
 							<img src="'. get_bloginfo( template_url ).'/img/'.$cat->slug.'.png"><br/>
 							<span>'.$cat->name.'</span>
 							<p>'.$cat->description.'</p>

@@ -5,7 +5,7 @@
 
 	</head>
 
-	<div id="header">
+	<div id="header" >
 		
 		<div id="logo">
 
