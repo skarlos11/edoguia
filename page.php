@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <div id="content" class="row">
-	<div class="span7">	    
+	<div class="span7" style="margin-left: 0px;">	    
 		    <?php if (have_posts()) : while (have_posts()) : the_post();?>
 		    <div class="info" >
 		        <h2 class="pag-title"><?php the_title();?></h2>

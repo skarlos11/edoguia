@@ -57,6 +57,7 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 #content{
 	max-width: 1170px;
 	margin: 0 auto;
+	text-align : justify;
 }
 
 .info{
@@ -171,6 +172,7 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	min-height: 85px;
 	background-color: #36B8EA;
 	margin-top: 30px;
+	position: inherit;
 	width: 100%;
 	bottom: 0;
 	left: 0;
