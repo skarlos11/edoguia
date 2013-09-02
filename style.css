@@ -59,6 +59,58 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	margin: 0 auto;
 }
 
+.info{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+}
+
+.info div{
+	padding: 15px 15px 30px 15px;
+}
+
+.pag-title{
+	background-color: #36b8ea;
+	color: #fff;
+	padding: 5px;
+	box-shadow: 2px 4px 10px #979797;
+	padding-left: 15px;
+}
+
+.related-title{
+	background-color: #ea369c;
+	color: #fff;
+	padding: 5px;
+	box-shadow: 2px 4px 10px #979797;
+	font-size: 2em;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.contacto-title{
+	background-color: #6a6a6a;
+	color: #fff;
+	padding: 5px;
+	box-shadow: 2px 4px 10px #979797;
+	font-size: 2em;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.contacto-info{
+	text-align: center;
+	color: #777;
+}
+
+.contacto-info span{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	background: b7d267;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 1.2em
+}
+
 
 /*-----------Categories Index---------------*/
 
@@ -118,6 +170,10 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 #footer {
 	min-height: 85px;
 	background-color: #36B8EA;
+	width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
 }
 
 .width-txt-foot{

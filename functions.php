@@ -22,8 +22,11 @@ function add_scripts(){
 add_action('init', 'add_scripts'); 
 add_action( 'wp_enqueue_script', 'add_scripts' );  
 
+/*-----------------MENU------------------------*/
 
 register_nav_menu( 'menu_header', 'EDO guia' );
+
+/*-------------Categorias Index----------------*/
 
 function cat_muestra(){
 
@@ -55,3 +58,85 @@ function cat_muestra(){
 	echo $output;
 
 }
+
+/*---------------Registro Sidebar------------------*/
+
+register_sidebar(array(
+  'name' => ( 'sidebar-info' ),
+  'id' => 'sidebar-info',
+  'before_title' => '<h2>',
+  'after_title' => '</h2>'
+));
+
+
+/*------------------Posts--------------------------*/
+
+
+function related_post(){
+
+	$args = array(
+			'posts_per_page'   => 5,
+			'offset'           => 0,
+			'category'         => '',
+			'orderby'          => 'post_date',
+			'order'            => 'DESC',
+			'include'          => '',
+			'exclude'          => '',
+			'meta_key'         => '',
+			'meta_value'       => '',
+			'post_type'        => 'post',
+			'post_mime_type'   => '',
+			'post_parent'      => '',
+			'post_status'      => 'publish',
+			'suppress_filters' => true 
+	);
+
+	$posts = get_posts($args);
+
+	$output .= '<div class="info">
+					<h2 class="related-title">Relacionado</h2>
+					<div>';
+
+	foreach ($posts as $post) {
+		
+		$output .= '<a href="'.$post->guid.'">'.$post->post_title.'</a>
+					<p>'.$post->post_content.'</p>';
+
+
+	}
+
+
+
+	$output .= '	</div>
+				</div>';
+
+	echo $output;
+
+}
+
+
+function contacto_post(){
+
+
+
+	$output .= '<div class="info">
+					<h2 class="contacto-title">Contacto</h2>
+					<div class="contacto-info">';
+
+		
+	$output .= '		<h2>¡Muestra tu negocio a todos y aumenta tus ventas!</h3>
+						<h3>Anuncios que se adaptan a cualquier presupuesto</h4>
+						<br/><span>Informate y pide una cotización</span>';
+
+
+	$output .= '	</div>
+				</div>';
+
+	echo $output;
+
+}
+
+
+			
+			
+		
