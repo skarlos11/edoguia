@@ -170,10 +170,11 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 #footer {
 	min-height: 85px;
 	background-color: #36B8EA;
-	width:100%;
-    position:absolute;
-    bottom:0;
-    left:0;
+	margin-top: 30px;
+	position: inherit;
+	width: 100%;
+	bottom: 0;
+	left: 0;
 }
 
 .width-txt-foot{
