@@ -116,6 +116,71 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	font-size: 1.2em
 }
 
+/*-----------Categories page----------------*/
+
+.title-cat{
+	max-width: 1170px;
+	background: #36b8ea;
+	text-align: center;
+	color: #fff;
+	box-shadow: 2px 4px 10px #979797;
+	margin-bottom: 15px;
+}
+
+.wp-post-image{
+	box-shadow: 5px 5px 10px #979797;
+}
+
+.single-post{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+	height: 225px;
+	margin-top: 20px;
+}
+
+.single-post h4{
+	background: #999797;
+	box-shadow: 5px 5px 10px #979797;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+.single-post h4 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.single-post2{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+	height: 290px;
+	margin-top: 20px;
+}
+
+.single-post2 h4{
+	background: #999797;
+	box-shadow: 5px 5px 10px #979797;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+.single-post2 h4 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.entry{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.entry h4{
+	text-align: center;
+	background: none !important;
+	box-shadow: 0px 0px 0px #979797;
+}
 
 /*-----------Categories Index---------------*/
 

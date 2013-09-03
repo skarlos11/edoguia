@@ -22,6 +22,8 @@ function add_scripts(){
 add_action('init', 'add_scripts'); 
 add_action( 'wp_enqueue_script', 'add_scripts' );  
 
+add_theme_support( 'post-thumbnails' ); 
+
 /*-----------------MENU------------------------*/
 
 register_nav_menu( 'menu_header', 'EDO guia' );
@@ -32,6 +34,7 @@ function cat_muestra(){
 
 	$args = array(
 		
+		'parent'                 => 0,
 		'orderby'                  => 'id',
 		'order'                    => 'ASC',
 		
