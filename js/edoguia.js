@@ -4,9 +4,6 @@ jQuery(function($) {
 		window.location = $(this).attr('url');
 	});
 
-	var page_name = $('.pag-title').text();
-	$('.menu-item:contains("'+page_name+'")').addClass('current');
-
 	jQuery('.single-post:nth-child(4n+2)').css({ marginLeft: '0px' });
 	jQuery('.single-post2:nth-child(3n+2)').css({ marginLeft: '0px' });
 
