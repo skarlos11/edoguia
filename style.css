@@ -91,6 +91,10 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	padding-right: 15px;
 }
 
+.info ul li{
+	list-style: none;
+}
+
 .contacto-title{
 	background-color: #6a6a6a;
 	color: #fff;
@@ -147,6 +151,26 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 }
 
 .single-post h4 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.single-post-turi{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+	min-height: 190px;
+	margin-top: 20px;
+}
+
+.single-post-turi h4{
+	background: #35b7e9;
+	box-shadow: 5px 5px 10px #979797;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+.single-post-turi h4 a{
 	color: #fff;
 	text-decoration: none;
 }
