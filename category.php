@@ -7,12 +7,11 @@
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-			 <div class="single-post-turi">	
+			 <div class="single-post span3">	
 			 	<h4 ><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
 
 					<div class="entry">
 					 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> <?php the_post_thumbnail();	?></a>
-					 <?php the_content('Read more...'); ?>
 					</div>
 				
 			</div>
