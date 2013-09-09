@@ -162,7 +162,7 @@ function contacto_post(){
 
 
 
-	$output .= '<div class="info">
+	$output .= '<div class="span4"><div class="info ">
 					<h2 class="contacto-title">Contacto</h2>
 					<div class="contacto-info">';
 
@@ -173,12 +173,40 @@ function contacto_post(){
 
 
 	$output .= '	</div>
-				</div>';
+				</div></div>';
 
 	echo $output;
 
 }
 
+add_shortcode( 'contacto_post', 'contacto_post' );
+
+function post_single($atts, $content = null){
+
+
+	//var_dump($content);
+	//var_dump($atts);
+
+	if($atts[pos] == 1){
+		$style = 'style="margin-left: 0px;"';
+	}else{
+		$style = '';
+	}
+
+
+	$output .='	<div class="span'.$atts[span].'" '.$style.'">	    
+					    <div class="info" >
+					        <h2 class="pag-title">'.$atts[title].'</h2>
+					    <div>
+					    	'.$content.'
+						</div>
+					</div>
+				</div>';
+
+	return $output;
+}
+
+add_shortcode( 'post_single', 'post_single' );
 
 			
 			
