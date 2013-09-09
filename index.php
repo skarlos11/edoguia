@@ -8,52 +8,36 @@
 			
 		<div class="span6" style="margin-left: -30px;">
 
-			<h1>Titulo</h1>
+			<h1>Uruapan</h1>
 			
 			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
-				nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi 
-				enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis 
-				nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in 
-				hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu 
-				feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui 
-				blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla 
-				facilisi. Nam liber tempor cum
+				Uruapan es la segunda ciudad mas importante del estado de Michoacán, 
+				ubicada a 52 km de la ciudad de Pátzcuaro y 102 km de la capital del 
+				estado: Morelia.
 
-				soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat 
-				facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis 
-				qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me 
-				lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur 
-				mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc 
-				putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta 
-				decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, 
-				fiant sollemnes in futurum.
+				El nombre de la ciudad proviene del vocablo purépecha “Uruapani” que
+				significa “Lugar que siempre florece ó lugar donde los árboles reverdecen”. 
+				Su actividad económica primordial es la exportación de aguacate, misma que 
+				le ha atribuido el mote de “la capital mundial del aguacate” sin embargo un 
+				título más merecido seria el de “cuna del maque”, por la producción de objetos, 
+				como máscaras, jícaras, bateas y otros objetos artísticamente decorados, con 
+				dicha técnica pictórica, que data desde la época precolombina. Uruapan cuenta 
+				con diversos atractivos turísticos y monumentos históricos que sin duda hacen 
+				de visitar la ciudad, una prioridad en cualquier recorrido turístico en el estado.
 			</p>
 
 		</div>
 
 		<div class="span6">
 
-			<h2>Titulo</h2>
+			<h2>Edoguía</h2>
 				
 			<p>
-				Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
-				nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi 
-				enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis 
-				nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in 
-				hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu 
-				feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui 
-				blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla 
-				facilisi. Nam liber tempor cum
-
-				soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat 
-				facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis 
-				qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me 
-				lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur 
-				mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc 
-				putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta 
-				decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, 
-				fiant sollemnes in futurum.
+				Es un proyecto pensado para promover y proyectar el turismo local a nivel estatal 
+				y nacional, trabajando en conjunto con instancias de gobierno para mantener al 
+				usuario al tanto de todo lo que acontece en la ciudad, además de apoyar a los empresarios
+				y comerciantes locales por medio de la publicidad económica para la difusión de sus 
+				servicios. Es gracias a dicha publicidad que este proyecto se mantiene.
 			</p>
 
 		</div>
