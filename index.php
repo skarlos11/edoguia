@@ -14,7 +14,9 @@
 				Uruapan es la segunda ciudad mas importante del estado de Michoacán, 
 				ubicada a 52 km de la ciudad de Pátzcuaro y 102 km de la capital del 
 				estado: Morelia.
+			</p>
 
+			<p>
 				El nombre de la ciudad proviene del vocablo purépecha “Uruapani” que
 				significa “Lugar que siempre florece ó lugar donde los árboles reverdecen”. 
 				Su actividad económica primordial es la exportación de aguacate, misma que 
