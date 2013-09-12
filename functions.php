@@ -188,9 +188,9 @@ function post_single($atts, $content = null){
 	//var_dump($atts);
 
 	if($atts[pos] == 1){
-		$style = 'style="margin-left: 0px;"';
+		$style = 'style="margin-left: 0px; margin-bottom: 10px;"';
 	}else{
-		$style = '';
+		$style = 'style="margin-bottom: 10px;"';
 	}
 
 
