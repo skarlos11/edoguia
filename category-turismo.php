@@ -5,7 +5,7 @@
 
 <div class="title-cat span12" style="margin-left: 0px" ><h2><?php single_cat_title(); ?></h2></div>
 
-	<div class="span8" style="margin-left: 0px">
+	<div class="span8" style="margin-left: 0px; margin-top: -10px;">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 

@@ -15,7 +15,6 @@
 
 		<?php related_post(); ?>
 
-		<?php dynamic_sidebar('sidebar-info'); ?>
 
 		<?php contacto_post(); ?>
 		

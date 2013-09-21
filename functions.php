@@ -102,8 +102,7 @@ function related_post(){
 
 	foreach ($posts as $post) {
 		
-		$output .= '<a href="'.$post->guid.'">'.$post->post_title.'</a>
-					<p>'.$post->post_content.'</p>';
+		$output .= '<a href="'.$post->guid.'">'.$post->post_title.'</a><br />';
 
 
 	}
