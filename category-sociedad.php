@@ -40,7 +40,7 @@
 
 	<div class="span4">
 
-		<?php related_post_turi(); ?>
+		<?php related_post(); ?>
 
 	</div>
 
