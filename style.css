@@ -69,6 +69,11 @@ Description: Edo Guia Enfocado a la publicidad web de negocios
 	box-shadow: 5px 5px 10px #979797;
 }
 
+.info2{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+}
+
 .info div{
 	padding: 15px 15px 30px 15px;
 }
