@@ -42,6 +42,8 @@
 
 		<?php related_post(); ?>
 
+		<?php contacto_post(); ?>
+
 	</div>
 
 </div>
