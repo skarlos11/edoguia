@@ -161,7 +161,7 @@ function contacto_post(){
 
 
 
-	$output .= '<div class="span4"><div class="info ">
+	$output .= '<div class="info "style="margin-top: 20px;">
 					<h2 class="contacto-title">Contacto</h2>
 					<div class="contacto-info">';
 
@@ -172,7 +172,7 @@ function contacto_post(){
 
 
 	$output .= '	</div>
-				</div></div>';
+				</div>';
 
 	echo $output;
 

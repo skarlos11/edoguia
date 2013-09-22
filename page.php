@@ -11,7 +11,7 @@
 		    </div>
 		    <?php endwhile; endif; ?>
 	</div>
-	<div class="span4">
+	<div class="span4" >
 
 		<?php related_post(); ?>
 
