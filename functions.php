@@ -116,50 +116,11 @@ function related_post(){
 
 }
 
-function related_post_turi(){
-
-	$args = array(
-			'posts_per_page'   => 5,
-			'offset'           => 0,
-			'category'         => '',
-			'orderby'          => 'post_date',
-			'order'            => 'DESC',
-			'include'          => '',
-			'exclude'          => '',
-			'meta_key'         => '',
-			'meta_value'       => '',
-			'post_type'        => 'post',
-			'post_mime_type'   => '',
-			'post_parent'      => '',
-			'post_status'      => 'publish',
-			'suppress_filters' => true 
-	);
-
-	$posts = get_posts($args);
-
-	$output .= '<div class="info">
-					<h2 class="related-title">Relacionado</h2>
-					<div>
-						<ul>';
-
-	foreach ($posts as $post) {
-		
-		$output .= '<li><a href="'.$post->guid.'">'.$post->post_title.'</a></li>';
-
-	}
-
-	$output .= '		</ul>
-					</div>
-				</div>';
-
-	echo $output;
-
-}
 
 
 function contacto_post(){
 
-
+	$page = get_page_by_title( 'Contacto' );
 
 	$output .= '<div class="info "style="margin-top: 20px;">
 					<h2 class="contacto-title">Contacto</h2>
@@ -168,7 +129,7 @@ function contacto_post(){
 		
 	$output .= '		<h2>¡Muestra tu negocio a todos y aumenta tus ventas!</h3>
 						<h3>Anuncios que se adaptan a cualquier presupuesto</h4>
-						<br/><span>Informate y pide una cotización</span>';
+						<br/><a href="'.$page->guid.'"><span>Informate y pide una cotización</span></a>';
 
 
 	$output .= '	</div>
