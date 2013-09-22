@@ -7,9 +7,9 @@
 
 	<div id="header" >
 		
-		<div id="logo">
+		<a href="<?php bloginfo('url'); ?>"><div id="logo">
 
-		</div>
+		</div></a>
 
 		<div  class="nav-collapse collapse">
 			<?php wp_nav_menu() ?>
