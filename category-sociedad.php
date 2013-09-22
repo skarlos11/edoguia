@@ -5,7 +5,7 @@
 
 <div class="title-cat span12" style="margin-left: 0px" ><h2><?php single_cat_title(); ?></h2></div>
 
-echo do_shortcode('[rev_slider sociedad]');
+<?php echo do_shortcode('[rev_slider sociedad]'); ?>
 
 	<div class="span8" style="margin-left: 0px; margin-top: -10px;">
 
