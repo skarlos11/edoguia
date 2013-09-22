@@ -1,0 +1,304 @@
+/*
+Theme Name: EdoGuia
+Author: Artemio & Carlos Rodriguez
+Description: Edo Guia Enfocado a la publicidad web de negocios
+*/
+
+
+/*--------------Generic Css----------------*/
+
+.clear{
+	clear: both;
+}
+
+.position{
+	margin: 0 auto!important;
+}
+
+/*----------------Header-------------------*/
+
+#header{
+	max-width: 1170px;
+	margin: 0 auto;
+	height: 104px;
+}
+
+#logo {
+	background-image:url('img/logo.png');
+	width: 300px;
+	height: 104px;
+}
+
+.menu {
+	position: relative;
+	left: 300px;
+	top: -83px;
+}
+
+.menu li{
+	display: inline;
+	background-color: #3e3e3e;
+	padding: 15px 25px 15px 25px;
+	margin-left: -4px;
+}
+
+.menu li:hover{
+	background-color: #36b8ea;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: helvetica;
+}
+
+.current-menu-item{
+	background: #36b8ea !important;
+}
+
+/*----------------Content-------------------*/
+
+#content{
+	max-width: 1170px;
+	margin: 0 auto;
+	text-align : justify;
+}
+
+.info{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+}
+
+.info2{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+}
+
+.info2 form{
+	padding-left: 30px;
+	margin-top: 15px;
+}
+
+.info2 h4{
+	background: #35b7e9;
+	box-shadow: 5px 5px 10px #979797;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding: 10px;
+	color: #fff;
+}
+
+.info div{
+	padding: 15px 15px 30px 15px;
+}
+
+.pag-title{
+	background-color: #36b8ea;
+	color: #fff;
+	padding: 5px;
+	box-shadow: 2px 4px 10px #979797;
+	padding-left: 15px;
+}
+
+.related-title{
+	background-color: #ea369c;
+	color: #fff;
+	padding: 5px;
+	box-shadow: 2px 4px 10px #979797;
+	font-size: 2em;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.info ul li{
+	list-style: none;
+}
+
+.contacto-title{
+	background-color: #6a6a6a;
+	color: #fff;
+	padding: 5px;
+	box-shadow: 2px 4px 10px #979797;
+	font-size: 2em;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.contacto-info{
+	text-align: center;
+	color: #777;
+}
+
+.contacto-info span{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	background: b7d267;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 1.2em
+}
+
+/*-----------Categories page----------------*/
+
+.title-cat{
+	max-width: 1170px;
+	background: #36b8ea;
+	text-align: center;
+	color: #fff;
+	box-shadow: 2px 4px 10px #979797;
+	margin-bottom: 15px;
+}
+
+.wp-post-image{
+	box-shadow: 5px 5px 10px #979797;
+}
+
+.single-post{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+	height: 225px;
+	margin-top: 20px;
+}
+
+.single-post h4{
+	background: #999797;
+	box-shadow: 5px 5px 10px #979797;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+.single-post h4 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.single-post-turi{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+	min-height: 190px;
+	margin-top: 20px;
+}
+
+.single-post-turi h4{
+	background: #35b7e9;
+	box-shadow: 5px 5px 10px #979797;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+.single-post-turi h4 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.single-post2{
+	background: #ebebeb;
+	box-shadow: 5px 5px 10px #979797;
+	height: 290px;
+	margin-top: 20px;
+}
+
+.single-post2 h4{
+	background: #999797;
+	box-shadow: 5px 5px 10px #979797;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+.single-post2 h4 a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.entry{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.entry h4{
+	text-align: center;
+	background: none !important;
+	box-shadow: 0px 0px 0px #979797;
+}
+
+/*-----------Categories Index---------------*/
+
+#cat-content{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+#cat-muestra div{
+	text-align: center;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+
+#cat-muestra li{
+	height: 270px;
+}
+
+#cat-muestra li img{
+	padding-bottom: 15px;
+}
+
+#cat-muestra li span{
+	color: #fff;
+	font-size: 2.5em;
+	font-family: Helvetica;
+	font-weight: bold;
+	line-height: 0.8;
+}
+
+#cat-muestra li p{
+	color: #fff;
+	font-size: 1.8em;
+	padding-top: 10px;
+}
+
+#cat-muestra li:nth-child(1){
+	background: #36b8ea;
+}
+
+#cat-muestra li:nth-child(2){
+	background: #e30613;
+}
+
+#cat-muestra li:nth-child(3){
+	background: #e6007e;
+}
+
+#cat-muestra li:nth-child(4){
+	background: #3aaa35;
+}
+
+/*----------------Footer-------------------*/
+
+
+#footer {
+	min-height: 85px;
+	background-color: #36B8EA;
+	margin-top: 30px;
+	position: inherit;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.width-txt-foot{
+	max-width: 770px;
+	margin: 0 auto;
+}
+
+.textof {
+	font-family: helvetica;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	float: left; 
+}
