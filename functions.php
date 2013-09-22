@@ -47,7 +47,7 @@ function cat_muestra(){
 
 	foreach ($categories as $cat) {
 
-		$output	.=	'<li class="span3">
+		$output	.=	'<li class="span4">
 						<div url="'.get_category_link( $cat->cat_ID ).'">
 							<img src="'. get_bloginfo( template_url ).'/img/'.$cat->slug.'.png"><br/>
 							<span>'.$cat->name.'</span>
