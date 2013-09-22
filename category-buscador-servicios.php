@@ -5,6 +5,10 @@
 
 <div class="title-cat span12" style="margin-left: 0px" ><h2><?php single_cat_title(); ?></h2></div>
 
+	<?php echo do_shortcode('[rev_slider sociedad]'); ?>
+	
+	<br />
+
 	<?php
 		
 		$name  = single_cat_title("", false);
