@@ -84,7 +84,7 @@ $texto = substr($string ,0, $indiceUltimoEspacio);
 
 $final = $texto.' <a href="'.$link.'"> leer mas...</a>';
 
-echo $final; 
+return  $final; 
 
 
 } 
@@ -119,9 +119,16 @@ function related_post(){
 					<div>';
 
 	foreach ($posts as $post) {
-		
-		$output .= '<a href="'.$post->guid.'">'.$post->post_title.'</a><br />';
 
+		$string = preg_replace( '|\[(.+?)\](.+?\[/\\1\])?|s', '', $post->post_content);
+		$link = get_permalink();
+
+
+		$output .= '<a href="'.$post->guid.'">'.$post->post_title.'</a><br /><p>';
+
+		$output .= post_reducido($string, 100, $link); 
+
+		$output .= '</p>';
 
 	}
 

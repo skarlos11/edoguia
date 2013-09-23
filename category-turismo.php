@@ -26,7 +26,7 @@
 								<?php
 									$string = preg_replace( '|\[(.+?)\](.+?\[/\\1\])?|s', '', $post->post_content);
 									$link = get_permalink();
-									post_reducido($string, 400, $link); 
+									echo post_reducido($string, 400, $link); 
 								?>
 							</p>
 						</div>
