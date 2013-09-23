@@ -71,6 +71,24 @@ register_sidebar(array(
   'after_title' => '</h2>'
 ));
 
+/*------------------Recortar cadena--------------------------*/
+
+function post_reducido($string, $limit, $link) { 
+
+
+$subtext = substr($string, 0, $limit);
+
+$indiceUltimoEspacio = strrpos($subtext," ");
+
+$texto = substr($string ,0, $indiceUltimoEspacio);
+
+$final = $texto.' <a href="'.$link.'"> leer mas...</a>';
+
+echo $final; 
+
+
+} 
+
 
 /*------------------Posts--------------------------*/
 

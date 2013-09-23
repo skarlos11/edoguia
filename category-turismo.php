@@ -22,7 +22,13 @@
 						</div>
 
 						<div class="span5">
-							<p><?php echo $post->post_content; ?></p>
+							<p>
+								<?php
+									$string = preg_replace( '|\[(.+?)\](.+?\[/\\1\])?|s', '', $post->post_content);
+									$link = get_permalink();
+									post_reducido($string, 400, $link); 
+								?>
+							</p>
 						</div>
 					
 					</div>
